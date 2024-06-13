@@ -1,4 +1,4 @@
-/*--------------------------------*- C++ -*----------------------------------*\
+5/*--------------------------------*- C++ -*----------------------------------*\
 | =========                 |                                                 |
 | \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
 |  \\    /   O peration     | Version:  2.2.1                                 |
@@ -27,6 +27,6 @@ gasProperties
     R            R [0 2 -2 -1 0 0 0] 0.5; // Specific gas constant
     omega        0.5;              // VHS viscosity ~ Temperature index
     Tref         Tref [0 0 0 1 0 0 0] 2; // Reference temperature
-    muRef        muRef [1 -1 -1 0 0 0 0] 10;
+    muRef        muRef [1 -1 -1 0 0 0 0] 1e-5;
     Pr           0.666666666666667; // Prantl number
 }
